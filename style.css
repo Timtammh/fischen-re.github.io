@@ -1,0 +1,227 @@
+.html, body{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    background-color: rgba(235, 119, 112);
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    transition: .5s ease;
+}
+
+.navbar-brand:hover {
+    color: rgb(116, 60, 57);
+}
+
+.logoName {
+    display: flex;
+}
+
+.logoPic {
+    width: 35px;
+    height: 35px;
+}
+
+.navbar-toggler {
+    color: #fff;
+}
+
+.offcanvas-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(235, 119, 112);
+}
+
+.itmeName {
+    font-size: 21px;
+    font-weight: 600;
+    color: rgba(235, 119, 112);
+}
+
+.shopbag {
+    font-size: 15px;
+}
+
+.bx {
+    font-size: 20px;
+    color: #fff;
+    transition: .5s ease;
+}
+
+.bx:hover {
+    font-size: 22px;
+    color: rgb(116, 60, 57);
+}
+
+.navbar-toggler {
+    font-size: 20px;
+    transition: .5s ease;
+}
+
+.navbar-toggler:hover {
+    font-size: 22px;
+    color: rgb(116, 60, 57);
+}
+
+.nav-link{
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+    margin: -3px 0;
+    transition: .5s ease;
+}
+
+.nav-link:hover {
+    color: rgb(116, 60, 57);
+}
+
+.btn {
+    background-color: rgba(235, 119, 112);
+    font-weight: 600;
+    animation-delay: 2s;
+}
+
+.btn:hover {
+    background-color: #fff;
+    outline: 1px solid rgba(235, 119, 112);
+}
+
+hr {
+    border: 0px;  /* 不要框架 */
+    height: 3px;  /* 設定 1px 的高度 */
+    background: black;  /* 讓背景色填滿高度 1px 的元素空間 */
+    margin: 10px 0;
+    width: 300px;
+}
+
+.carousel slide {
+}
+
+.middleInfo {
+    /* outline: 2px solid red; */
+    margin: 30px 120px;
+}
+
+.card {
+    border: none;
+}
+
+.card-img-top {
+    border-radius: 25px;
+/*  outline: 1px solid black;  */}
+
+.bestseller {
+    margin: 10px 80px;
+    padding: 10px;
+}
+
+.bestname {
+    font-weight: 800;
+    color: rgba(235, 119, 112);
+    font-size: 40px;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#toast {
+    font-size: 18px;
+    color: rgb(235, 138, 27);
+}
+
+.card-text-C {
+    font-weight: 500;
+    margin: -.5px 0;
+    font-size: 12px;
+}
+
+.card-text-E {
+    font-weight: 600;
+    margin: -.5px 0;
+    font-size: 11px;
+}
+
+#duck {
+    font-size: 19px;
+    color: rgb(235, 138, 27);
+}
+
+h1 {
+    text-align: center;
+}
+
+.blog {
+    margin: 10px 80px;
+    padding: 10px;
+}
+
+#blogButton {
+/*     position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 8px; */
+    margin: 5px 0;
+}
+
+.modal-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.modal-body {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.fontcontent {
+    background-color: gray;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.footlogo {
+    width: 30px;
+}
+
+.left {
+    font-size:30px;
+    color: rgba(235, 119, 112);
+}
+
+.allRight {
+    font-size: 10px;
+    position: absolute;
+    letter-spacing: 1px;
+}
+
+.link1 {
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.link2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 0 0 0 30px;
+}
+
+.contant {
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 0 30px;
+}
+
+.footlinks {
+    display: flex;
+}

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <title>test</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5d132b1613.js" crossorigin="anonymous"></script>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC&family=Tiro+Devanagari+Hindi&display=swap"
+        rel="stylesheet">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <nav class="navbar fixed-top">
+                <div class="container-fluid">
+                    <div class="logoName">
+                        <img class="logoPic" src="pic/logo.png" alt="logo">
+                        <a class="navbar-brand" href="#">Fischen</a>
+                    </div>
+                    <div class="navbotton">
+                        <!-- <button class="shopbag bx bxs-shopping-bag"></button> -->
+                        <i class='bx bx-shopping-bag'></i>
+                        <button class="navbar-toggler fa-solid fa-bars" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <!-- <span class="navbar-toggler-icon"></span> -->
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                            aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <img class="logoPic" src="pic/logo-C.png" alt="logo">
+                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Shop</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <h3 class="itmeName">Foods</h2>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">All Categories</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Dragon Boat Festival: Rice Dumplings</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Best Selling Items</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Discount & Sale</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Party Catering & Sets</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Oysters & seafood</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Meat</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Gourmet</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Groceries</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Dessert</a>
+                                        </li>
+                                        <hr>
+
+                                        <h3 class="itmeName">Drinks</h2>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">All Categories</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Coffee</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Juices</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Tea</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Beer</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Soft Drinks & Others</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Wine & Spirits</a>
+                                </ul>
+                                <form class="d-flex mt-3" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn" type="submit">Search</button>
+                                </form>
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item mt-3">
+                                        <a class="nav-link" href="#">About Fischen</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contact Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Delivery Terms</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="pic/4.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="pic/5.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="pic/6.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="middleInfo">
+        <div class="bestseller">
+            <h1 class="bestname">BestSeller</h1>
+            <div class="bestcard">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card" style="height: 500px;">
+                            <img src="pic/A.png" class="card-img-top p-3" alt="...">
+                            <div class="card-body">
+                                <span class="card-title pb-1">台灣火爆千層生乳吐司</span> <i class='bx bxs-baguette'
+                                    id="toast"></i>
+                                <p class="card-text-C">使用頂級的鮮奶油撘現上法國粉及發酵奶油濃郁奶香，入口即化。</p>
+                                <p class="card-text-C">72小時繁複工法達至層次分明，口感濃郁的千層生乳吐司。</p>
+                                <p class="card-text-C">一片片的撕開 每一口層次都是濃郁的奶香味。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="height: 500px;">
+                            <img src="pic/B.png" class="card-img-top p-3" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title pb-1">[WOW!] Oysters & Ham Catering Set</h5>
+                                <p class="card-text-E">The most important elements that make quality and luxurious party
+                                    starters for any occasion are fresh oysters, great Iberico ham & sausage, cheeses,
+                                    sweet accompaniments, and snacks. Fischen saves you the hassle to shop and compare
+                                    prices at supermarkets, it is best for family & friends gatherings. Def a wow factor
+                                    for any gatherings We now offer charcuterie boards that include our all-time best
+                                    sellers of Iberico ham and cheese, in a small (4-5ppl) & large (8-10ppl) board.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="height: 500px;">
+                            <img src="pic/G.png" class="card-img-top p-3" alt="...">
+                            <div class="card-body">
+                                <span class="card-title pb-1">Hungary Foie Gras Sliced 2pcs</span> <i class='bx bx-dish'
+                                    id="duck"></i>
+                                <p class="card-text-C">你知不知道: 法國其實不是鵝肝生產的第一大國，是擁有悠久養鵝歷史的匈牙利為生產鵝肝第一大國。<br>
+                                    匈牙利鵝肝的密度較法國一般的品種為高，因此香味更濃厚、更容易烹調。
+                                    世界頂級美食 - 鵝肝，一般出現在法式大餐中，鵝肝口感細膩，入口即化，但是價格卻昂貴的離譜。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="height: 500px;">
+                            <img src="pic/D.png" class="card-img-top p-3" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title  pb-1">La "M" Super Speciale</h5>
+                                <p class="card-text-E">Some claim that the 'M' derives its exceptional quality from the
+                                    special attention paid to it throughout its cultivation.
+                                    Others maintain that the 'M' is the result of a drastic selection process, with only
+                                    the cream of the crop joining the ranks of this elite division.
+                                    There are even those who claim that the subtle balance between its marine flavours
+                                    and its sweetness is due to the unique and enviable terroir of Mornac-sur-Seudre.
+                                    There is probably a bit of all this in the 'M'.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="height: 500px;">
+                            <img src="pic/E.png" class="card-img-top p-3" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title  pb-1">Gillardeau Speciale</h5>
+                                <p class="card-text-C">被譽為生蠔界的勞斯萊斯，Gillardeau生蠔蠔肉肥美、結實而呈彈性，有脆口感覺，味道鮮甜，是帶有細膩和層次
+                                    秉承了吉娜朵家族精益求精的傳統，完美的養殖技術，養殖的生蠔擁有精美的外表和柔和細膩的味道，倍經考驗的質量和層次分明，因此豐富的口味征服了世界頂級酒店、米芝蓮餐廳和無數消費者。每一隻生蠔上都有刻印"G"，標誌著家族的驕傲和承諾。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="height: 500px;">
+                            <img src="pic/F.png" class="card-img-top p-3" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title  pb-1">【Party WOW!】Charcuterie Board</h5>
+                                <p class="card-text-E">The most important elements that makes a quality and luxurious
+                                    charcuterie board for any occasions are great Iberico ham & sausage, cheeses, sweet
+                                    accompaniments, and snacks. Fischen saves you the hassle to shop and compare prices
+                                    at supermarkets, it is best for family & friends gatherings.
+                                    We now offer charcuterie boards that include our all-time best sellers of Iberico
+                                    ham and cheese, in a small (4-5ppl) & large (8-10ppl) board.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog">
+            <h1 class="bestname">Latest Blog</h1>
+            <div class="card-group">
+                <div class="card" style="height: 500px;">
+                    <img src="pic/11.png" class="card-img-top p-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">【Recipe: French Lobster Bisque】</h5>
+                        <p class="card-text-E">The most traditional way to make lobster bisque is to make with a stock
+                            made of whole lobster she...</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn" id="blogButton" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Read
+                            More</button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">【Recipe: French Lobster Bisque】
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        The most traditional way to make lobster bisque is to make with a stock made of
+                                        whole lobster shells. With Fischen’s lobster bisque stock, you save all the
+                                        hassle in spending hours in making the stock. With simple ingredients, you can
+                                        cook a smooth nd creamy lobster bisque to please your guests over dinner,
+                                        whether it is a candle light dinner with your loved ones, or a festive gathering
+                                        with relatives and friends! Recipe (for 2-3 servings)
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="height: 500px;">
+                    <img src="pic/22.png" class="card-img-top p-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">【Oysters & Ham Catering Set】</h5>
+                        <p class="card-text-E">Are great Iberico ham & sausage, cheeses, sweet accompaniments, and
+                            snacks. ...</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn" id="blogButton" data-bs-toggle="modal"
+                            data-bs-target="#ModalLabel2">Read
+                            More</button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="ModalLabel2" tabindex="-1" aria-labelledby="ModalLabel2"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="ModalLabel2">【Oysters & Ham Catering Set】</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        The most important elements that makes a quality and luxurious charcuterie board
+                                        for any occasions are great Iberico ham & sausage, cheeses, sweet
+                                        accompaniments, and snacks. Fischen saves you the hassle to shop and compare
+                                        prices at supermarkets, it is best for family & friends gatherings.
+                                        We now offer charcuterie boards that include our all-time best sellers of
+                                        Iberico ham and cheese, in a small (4-5ppl) & large (8-10ppl) board.
+                                        Upon receiving your order, our chef prepares the charcuterie board fresh right
+                                        before your delivery at our food factory facility, ensuring hygiene and
+                                        freshness!
+                                        Upon receiving your order, our chef prepares the charcuterie board fresh right
+                                        before your delivery at our food factory facility, ensuring hygiene and
+                                        freshness!
+                                        French Oysters (12pcs) w/ La Vieille Eglise White Wine 1 btl
+                                        – Ostre’Or N1/ Krystale N1 (*Preshucked)
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="height: 500px;">
+                    <img src="pic/33.png" class="card-img-top p-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">【第二章: 品鱻】</h5>
+                        <p class="card-text-E">食物乃人之所需，鮮乃人之所能嚐，是與甜、酸、苦、鹹同為五種基本味覺之一。鮮的味道總能給人揮之不去的幸福感覺。...</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn" id="blogButton" data-bs-toggle="modal"
+                            data-bs-target="#ModalLabel3">Read
+                            More</button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="ModalLabel3" tabindex="-1" aria-labelledby="ModalLabel3"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="ModalLabel3">【第二章: 品鱻】</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        食物乃人之所需，鮮乃人之所能嚐，是與甜、酸、苦、鹹同為五種基本味覺之一。鮮的味道總能給人揮之不去的幸福感覺。
+                                        「品鱻」各自由三個「口」及「魚」組成，「品」即品嚐，「鱻」即鮮，源自古字，意指進入「品鱻」內能讓你品嚐最新鮮的食材及味道。
+                                    </div>
+                                    <img src="pic/caviar-7.jpg" class="card-img-top p-3" alt="...">
+                                    <p class="modal-body">香港生活節奏急促你我皆知，而作為商業及工廠區的觀塘則更甚，每天營營役役亦只為三餐享受美味一刻。
+                                        座落觀塘這個鬧市之中，「品鱻」為你專營最「鱻」的食材以及高質即食包，讓你在有限的時間亦能享受美味以及人情味。夜幕低垂，上班族亦可帶走即食包回家方便享用，不用太花全日已耗盡的心力及功夫，好好「品鱻」休息。
+                                    </p>
+                                    <img src="pic/caviar-8" class="card-img-top p-3" alt="...">
+                                    <p class="modal-body">多元的觀塘對於「品鱻」別具意義，是一切開始的地方，亦是一路走下去的根基。</p>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot">
+        <div class="fontcontent">
+            <div class="left">
+                <span><img src="pic/logo-C.png" class="footlogo" alt="logo">Fischen</span>
+                <span>
+                    <p class="allRight">ALL RIGHTS RESERVED</p>
+                </span>
+            </div>
+            <div class="footlinks">
+                <div class="link1">
+                    <p>Food</p>
+                    <p>Shop</p>
+                    <p>Blog</p>
+                </div>
+                <div class="link2">
+                    <p>About Fischen</p>
+                    <p>Contact Us</p>
+                    <p>Delivery Terms</p>
+                </div>
+                <div class="contant">
+                    <p>Unit 513 Hoi Luen Industrial Centre <br>Block B 55 Hoi Yuen Road, Kwun Tong</p>
+                    <p>(+852)2271 9036</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
